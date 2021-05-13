@@ -1,27 +1,40 @@
-* {
-    background-color: rgb(101, 167, 241);
-}
 
 header {
     color: darkblue;
-    font-size: 32px;
-    border: darkblue 4px solid;
-    border-radius: 12px;
-    max-height: 300px;
+    font-size: 40px;
+    background-image: url(../images/triangle-mosaic.png);
+    padding: 50px;
+    text-align: center;
 }
 
-.background {
-    background-image: url(../images/background.png);
+div {
+    font-size: 16px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+section {
+   
+}
+
+
+h1 {
+
+}
+
+p {
+
 }
 
 footer {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
 }
 
 footer ul li {
-    display: inline-block;
+    
 }
 
 .gmail:hover {
