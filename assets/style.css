@@ -33,6 +33,7 @@ main {
     color: darkblue;   
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 span {
@@ -52,7 +53,7 @@ img {
 }
 
 .rightmargin {
-    max-width: 600px;
+    max-width: 900px;
 }
 
 section {
