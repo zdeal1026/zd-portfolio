@@ -2,6 +2,7 @@
 header {
     color: darkblue;
     font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url(../images/triangle-mosaic.png);
     padding: 50px;
     text-align: center;
@@ -9,6 +10,7 @@ header {
 
 div {
     font-size: 16px;
+    font-style: oblique;
 }
 
 body {
@@ -16,16 +18,32 @@ body {
 }
 
 section {
-   
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;   
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    border: darkblue 4px solid;
+    border-radius: ;
+    height: 500px;
+    width: 400px;
+    margin: 20px;
+    order: 1;
+    transform: translateY(40px);
 }
 
 
 h1 {
-
+    color: purple;
 }
 
 p {
-
+}
+span {
+    font-weight: 800;
 }
 
 footer {
@@ -39,4 +57,9 @@ footer ul li {
 
 .gmail:hover {
     background-color: white;
+}
+
+@media screen {
+        
+}
 }
