@@ -39,10 +39,9 @@ Matierial and ideas borrowed from Trilogy Education services along with teaching
 
 # Screenshot        
 
-<img src=""/>
+<img src="./images/portprofile.png">
 
 
 # Link
 
 https://zdeal1026.github.io/zd-portfolio/
-
