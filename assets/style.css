@@ -11,21 +11,32 @@ header {
 
 /*anchor links*/
 
-div {
-    font-size: 16px;
+nav a {
+    font-size: 24px;
     font-style: oblique;
+    padding: 10px;
 }
+
+nav a:hover {
+        position:relative;
+        background-color: rgb(255, 217, 0);
+        z-index: auto -1;
+    }
 
 body {
     background-color: lightblue;
 }
 
-section {
+main {
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkblue;   
     display: flex;
     flex-direction: row;
+}
+
+span {
+    font-weight: 800;
 }
 
 /*headshot check spacing*/
@@ -40,67 +51,96 @@ img {
     transform: translateY(40px);
 }
 
-/*come back and fix this dot exchange*/
-
-.degree ul li {
-    list-style-image: url(/images/diploma.png);
-    color: red;
+.rightmargin {
+    max-width: 600px;
 }
 
-.medical ul li {
-    color: darkgreen;
-}
-
-aside {
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-}
-
-article .first {
+section {
     text-align: center;
 }
 
-article.second {
-   
+a img:hover {
+        position:relative;
+        background-color: rgb(255, 217, 0);
+        z-index: auto -1;
 }
 
-/*check if this is needed should be a child*/
+figure {
+    text-align: center;
+}
+
+
+figure img {
+    height: 250px;
+    width: 200px;
+    margin-bottom: 60px;
+    padding: 28px;
+    border: none;
+    border-radius: 10px;
+}
+
+figure img:hover {
+    position:relative;
+    background-color: rgb(255, 217, 0);
+    z-index: auto -1;
+}
 
 h2 {
     color: darkblue;
-    font-size: 24px;
+    font-size: 42px;
     text-align: center;
+    padding: 20px;
 }
 
-article .first a {
-    color: red;
+h3 {
+    margin-top: 100px;
+    font-size: 32px;
 }
 
-/*may not need this*/
-
-p {
+h4 {
+    text-align: center;
+    font-size: large;
 }
 
-span {
-    font-weight: 800;
-}
+/*footer pic and info*/
 
 footer {
+    background-image:url(../images/triangle-mosaic.png);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-footer ul {
-    color: darkgreen;
-    font-size: large;
-    justify-content: space-evenly;
-    flex: 1 0 0;
+footer div a {
+    padding-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 32px;
+       
+}
 
+footer div a:hover {
+    position:relative;
+    background-color: rgb(255, 217, 0);
+    z-index: auto -1;
+}
 
 /*phone view*/
 
-@media screen {
-        
-}
+@media screen and (max-width: 768px) {
+    header, body, footer {
+        flex-direction: column;
+    }
+
+    body {
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding: 20px,
+    }
+
+    header, footer {
+        background: lightgrey;
+        max-height: fit-content;
+    }
 }
