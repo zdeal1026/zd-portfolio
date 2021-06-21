@@ -39,7 +39,7 @@ Matierial and ideas borrowed from Trilogy Education services along with teaching
 
 # Screenshot        
 
-<img src="./images/portprofile.png">
+<img src="">
 
 
 # Link
