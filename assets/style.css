@@ -57,7 +57,6 @@ main {
     margin: 30px;
     padding: 20px;
     border-radius: 4%;
-    list-style: none;
 }
  /*bold*/
 
@@ -119,8 +118,8 @@ span {
 
 
 img {
-    height:100px;
-    width:80px;
+    height:170px;
+    width:130px;
 }
 
 section {
@@ -135,8 +134,13 @@ ul li {
 h2 {
     color: whitesmoke;
     font-size: 42px;
-    text-align: center;
     padding: 20px;
+    border: whitesmoke 4px solid;
+    background-color:lightcoral;
+    width:auto;
+    
+    
+
 }
 
 h3 {
@@ -148,9 +152,7 @@ h3 {
 .desc {
     color: whitesmoke;
     font-size: 24px;
-    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
 }
 
 /*footer pic and info*/
