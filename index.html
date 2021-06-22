@@ -20,98 +20,129 @@
         <a href="#Certifications">Certifications</a>
         <a href="#Projects">Projects</a>
         <a href="#Contact">Contact</a>
-        <a href="./images/Resume.pdf" download="./images/Resume">Resume</a>
+        <a href="#technology">Technical Skills</a>
+        <a href="./images/Resume.pdf" download="./images/Resume" target="_blank">Resume</a>
     </nav>
 
 </header>
 
-<body>
+<body id="layout">
     <main>
-        <container>
-            <img src="images/headshot.jpg" alt="Candidate Picture">
-        </container>
 
         <container class="rightmargin">
-            <article>
-                <h1 id="Bio">Bio</h1>
-                <p>
-                    Hello! My name is Zachary and for the last <span>TEN</span> years I have been working in the
-                    medical
-                    field. I have recently been searching for a career change and now I believe I have found a true
-                    calling!
-                    <span>CODING!!</span> It's something that has limitless upside with the oppurnity to continually
-                    learn.
-                </p>
 
-                <p>
-                    If your looking for someone to be devoted, hard-working, and give you 100% everyday; look no
-                    further!! I am very interested in any oppurtunity to grow my skill set.
-                </p>
+            <article id="lower">
+                <div>
+                    <container>
+                        <img src="images/headshot.jpg" id="profile" alt="Candidate Picture">
+                    </container>
+                </div>
+                <div id="Bio">
+                    <h1>Bio</h1>
+                    <p>
+                        Hello! My name is Zach and for the last <span>TEN</span> years I have been working in the
+                        medical
+                        field. I have recently been searching for a career change and now I believe I have found a true
+                        calling!
+                        <span>CODING!!</span> It's something that has limitless upside with the oppurnity to continually
+                        learn.
+                    </p>
+
+                    <p>
+                        If your looking for someone to be devoted, hard-working, and give you 100% everyday; look no
+                        further!! I am very interested in any oppurtunity to grow my skill set.
+                    </p>
+                </div>
             </article>
 
-            <article>
-                <h1 id="Education">Education</h1>
-                <ul>
-                    <li>Catawba Valley Community College; Applied Sciences </li>
-                    <li>Gardner Webb University; Business Administraiton</li>
-                    <li>University of North Carolina at Charlotte; Coding Bootcamp</li>
-                </ul>
-            </article>
+            <div id="lower">
 
-            <article class="medical">
-                <h1 id="Certifications">Certifications</h1>
-                <li>Radiography</li>
-                <li>Computed Tomography</li>
-                <li>Vascular Interventional</li>
-                <li>Cardiac Interventional</li>
-            </article>
+                <article id="Education">
+                    <h1>Education</h1>
+                    <ul>
+                        <li img>University of North Carolina at Charlotte; Coding Bootcamp</li>
+                        <li>Gardner Webb University; Business Administraiton</li>
+                        <li>Catawba Valley Community College; Applied Sciences </li>
+                    </ul>
+
+                </article>
+
+                <article id="medical">
+                    <h1 id="Certifications">Certifications</h1>
+                    <ul>
+                        <li>Radiography</li>
+                        <li>Computed Tomography</li>
+                        <li>Vascular Interventional</li>
+                        <li>Cardiac Interventional</li>
+                    </ul>
+                </article>
+
+                <article id="technical">
+                    <h1 id="technology"> Technical Skills</h1>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Bootstrap</li>
+                        <li>API's</li>
+                    </ul>
+                </article>
+
+            </div>
         </container>
     </main>
 
-    <section>
+    <section id="last">
         <h2 id="Projects"> Projects</h2>
 
-        <div>
-            <a href="https://devinpawline.github.io/Ask_Oracle/" target="_blank">
-                <img src="https://github.com/DevinPawline/Ask_Oracle" alt="AskOracle"></a>
-            <ul>
-                <li><a href="https://github.com/DevinPawline/Ask_Oracle" alt="Repo" target="_blank">Github Repo</a></li>
-            </ul>
-        </div>
+        <div id="sidebyside">
 
-        <div>
-            <a href="https://zdeal1026.github.io/zd-portfolio/" target="_blank">
-                <img src="" alt="Portfolio"> </a>
-            <ul>
-                <li><a href="https://github.com/zdeal1026/zd-portfolio" alt="Repo" target="_blank">Github Repo</a></li>
-            </ul>
-
-        </div>
-
-        <div>
-            <a href="https://zdeal1026.github.io/quiz/" target="_blank">
-                <img src="./images/screen.png" alt="CodeQuiz"></a>
+            <div class="subs">
+                <a href="https://devinpawline.github.io/Ask_Oracle/" target="_blank">
+                    <img src="./images/screen.png" alt="AskOracle"></a>
                 <ul>
-                    <li><a href="https://github.com/zdeal1026/quiz" alt="Repo" target="_blank">Github Repo</a></li>
+                    <li><a href="https://github.com/DevinPawline/Ask_Oracle" alt="Repo" target="_blank" class="desc">Ask Oracle</a>
+                    </li>
                 </ul>
+            </div>
+
+            <div class="subs">
+                <a href="https://zdeal1026.github.io/zd-portfolio/" target="_blank">
+                    <img src="./images/screen.png" alt="Portfolio"> </a>
+                <ul>
+                    <li><a href="https://github.com/zdeal1026/zd-portfolio" alt="Repo" target="_blank" class="desc">Portfolio</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="subs">
+                <a href="https://zdeal1026.github.io/quiz/" target="_blank">
+                    <img src="./images/screen.png" alt="CodeQuiz"></a>
+                <ul>
+                    <li><a href="https://github.com/zdeal1026/quiz" alt="Repo" target="_blank" class="desc">Code Quiz</a></li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <footer>
 
-        <h4 id="Contact">Contact Information</h3>
+        <h3 id="Contact">Contact Information</h3>
 
-            <div>
+        <div>
 
-                <a href="tel:1.828.612.3305">1.828.612.3305</a>
+            <a href="tel:1.828.612.3305">1.828.612.3305</a>
 
-                <a id="gmail" href="mailto:jedimastershake@gmail.com">Email</a>
+            <a id="gmail" href="mailto:jedimastershake@gmail.com">Email</a>
 
-                <a href="https://www.linkedin.com/in/zdeal1026/" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/zdeal1026/" target="_blank">LinkedIn</a>
 
-                <a href="https://github.com/" target="_blank">Github</a>
+            <a href="https://github.com/" target="_blank">Github</a>
 
-            </div>
+            <a href="./images/Resume.pdf" download="./images/Resume">Resume</a>
+
+        </div>
 
     </footer>
 

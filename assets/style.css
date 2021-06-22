@@ -4,9 +4,14 @@ header {
     color: darkblue;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(../images/triangle-mosaic.png);
     padding: 50px;
+    background-image:url(../images/triangle-mosaic.png);
     text-align: center;
+    border: 10px solid white;
+    border-radius: 2em;
+    max-width:auto;
+    margin-bottom: 50px;
+    
 }
 
 /*anchor links*/
@@ -19,21 +24,40 @@ nav a {
 
 nav a:hover {
         position:relative;
-        background-color: rgb(255, 217, 0);
+        background-color: rgb(223, 179, 210);
         z-index: auto -1;
     }
 
 body {
-    background-color: lightblue;
+    background: url(../images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 main {
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkblue;   
+    color: whitesmoke;   
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+#sidebyside {
+    display: flex;
+    flex-direction: row;  
+    justify-content:center;
+    margin-left: 30px;
+}
+
+.subs {
+    border: whitesmoke 4px solid;
+    background-color:lightcoral;
+    max-width: 600px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 4%;
+    list-style: none;
 }
  /*bold*/
 
@@ -41,67 +65,103 @@ span {
     font-weight: 800;
 }
 
-/*headshot check spacing*/
-
-img {
-    border: darkblue 4px solid;
-    border-radius: 10px;
-    height: 500px;
-    width: 400px;
+#profile {
+    border: whitesmoke 4px solid;
+    border-radius: 60%;
+    height: 300px;
+    width: 250px;
     margin: 20px;
     order: 1;
     transform: translateY(40px);
 }
 
-.rightmargin {
-    max-width: 900px;
+#Bio {
+    border: whitesmoke 4px solid;
+    background-color:lightcoral;
+    max-width: 600px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 4%;
+}
+
+#Education {
+    border: whitesmoke 4px solid;
+    background-color:lightcoral;
+    max-width: 500px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 4%;
+}
+
+#medical {
+    border: whitesmoke 4px solid;
+    background-color:lightcoral;
+    max-width: 300px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 4%;
+}
+
+#technical {
+    border: whitesmoke 4px solid;
+    background-color:lightcoral;
+    max-width: 300px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 4%;
+}
+
+#lower {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+img {
+    height:100px;
+    width:80px;
 }
 
 section {
     text-align: center;
 }
 
-figure {
-    text-align: center;
+ul li {
+    list-style: none;
 }
 
-figure img {
-    height: 250px;
-    width: 200px;
-    margin-bottom: 60px;
-    padding: 28px;
-    border: none;
-    border-radius: 10px;
-}
-
-figure img:hover {
-    position:relative;
-    background-color: rgb(255, 217, 0);
-    z-index: auto -1;
-}
 
 h2 {
-    color: darkblue;
+    color: whitesmoke;
     font-size: 42px;
     text-align: center;
     padding: 20px;
 }
 
 h3 {
-    margin-top: 100px;
+    color: darkblue;
+    margin-top: 20px;
     font-size: 32px;
 }
 
-h4 {
+.desc {
+    color: whitesmoke;
+    font-size: 24px;
     text-align: center;
-    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 /*footer pic and info*/
 
 footer {
     background-image:url(../images/triangle-mosaic.png);
-    text-align: center;    
+    text-align: center;   
+    border: 10px solid white;
+    border-radius: 2em;
+    max-width:auto;
+    margin-bottom: 50px; 
 }
 
 footer div a {
@@ -112,7 +172,7 @@ footer div a {
 
 footer div a:hover {
     position:relative;
-    background-color: rgb(255, 217, 0);
+    background-color: rgb(223, 179, 210);
     z-index: auto -1;
 }
 
@@ -126,7 +186,9 @@ footer div a:hover {
     body {
         display: inline-flex;
         flex-wrap: wrap;
-        padding: 20px,
+        padding: 20px;
+        background: lightblue;
+
     }
 
     header, footer {
