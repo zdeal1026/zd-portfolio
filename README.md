@@ -49,3 +49,5 @@ Matierial and ideas borrowed from Trilogy Education services, along with teachin
 # Link
 
 https://zdeal1026.github.io/zd-portfolio/
+
+©Copyright 2021, Zachary A. Deal
