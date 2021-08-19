@@ -24,6 +24,10 @@ This project focused on using tools we learned to create a Portfolio webpage. Th
 
 This is the second version of my portfolio. I was able to use more techniques to make it looked more "polished". I used some new CSS tricks to make it look better and adjusted the color to make it easier on the eyes. I also added a background image and fixed it to a position so that it wouldn't scroll with the portfolio information. I updated my projects and my skill set. I am looking forward to continue adding to my skill sets and can't wait to see what it looks like when I update it the next time. I also added a resume for users to download and personalized my Github page!
 
+*Addendum*
+
+Third times the Charm!! This assignment was just another portfolio update. It feels great looking at the skills I've learned. As of now, the back end of coding has really got my attention. It seems more challenging but feels so much rewarding when you get an application to work. I look forward to trying to find a job and mastering my skill set!
+
 # Criteria
 1. Previous work on Portfolio Page.
 2. Has candidate name, photo, and links to sections about them, their work, and contact information.
@@ -43,7 +47,7 @@ Matierial and ideas borrowed from Trilogy Education services, along with teachin
 
 # Screenshot        
 
-<img src="images/updateres.png">
+<img src="images/new.png">
 
 
 # Link

@@ -53,10 +53,11 @@ main {
 .subs {
     border: whitesmoke 4px solid;
     background-color:lightcoral;
-    max-width: 600px;
+    max-width: 500px;
     margin: 30px;
     padding: 20px;
     border-radius: 4%;
+    text-align:center;
 }
  /*bold*/
 
