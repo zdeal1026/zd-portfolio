@@ -47,19 +47,25 @@ main {
     display: flex;
     flex-direction: row;  
     justify-content:center;
-    margin-left: 30px;
+    /* margin-left: 30px; */
+    width: 100%;
 }
 
-.subs {
+.subs >div {
+    margin: 20px;
     border: whitesmoke 4px solid;
     background-color:lightcoral;
-    max-width: 500px;
-    margin: 30px;
-    padding: 20px;
     border-radius: 4%;
     text-align:center;
 }
- /*bold*/
+
+.subs {
+    flex: 1 0 16.6%;
+    /* max-width: 500px; */
+    /* margin: 30px; */
+    /* padding: 20px; */
+}
+ 
 
 span {
     font-weight: 800;
@@ -167,8 +173,13 @@ footer {
     margin-bottom: 50px; 
 }
 
+footer >div {
+    display: flex;
+    width: 100%;
+}
+
 footer div a {
-    padding-left: 50px;
+    flex: 1 0 20%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;       
 }
