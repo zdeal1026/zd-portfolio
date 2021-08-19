@@ -39,7 +39,7 @@ Third times the Charm!! This assignment was just another portfolio update. It fe
 
 
 # Notes
-This was fairly challenging for a first time coder. I am looking forward to coming back and reworking this webpage in the future. It will be exciting to see what new skills I can add next time!
+I didn't realize how much I have learned! Looking forward to getting in the field!!
 
 # Credits
 Matierial and ideas borrowed from Trilogy Education services, along with teachings from Anthony Cooper,Sasha Peterson, Mahesh Kommareddi, Sendy Mederos, and  Thyra Howard.
@@ -47,7 +47,7 @@ Matierial and ideas borrowed from Trilogy Education services, along with teachin
 
 # Screenshot        
 
-<img src="images/new.png">
+![Zdeal1026](https://user-images.githubusercontent.com/82068157/129994656-b464f6bc-2a47-4895-b9eb-6afff4954043.png)
 
 
 # Link
